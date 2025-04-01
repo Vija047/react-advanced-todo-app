@@ -1,69 +1,84 @@
-# Welcome to your Lovable project
+# Advanced React To-Do Application with API Integration
 
-## Project info
+## Project Overview
+This project is an advanced To-Do application built using React with API integration, Redux for state management, and responsive design principles. The application allows users to manage their tasks efficiently while integrating an external API (e.g., a weather API) for enhanced task-related insights.
 
-**URL**: https://lovable.dev/projects/4ae8d2f7-208a-4c67-9ab8-3c8544efa4a0
+## Features
+- **Task Management:** Add, view, and delete tasks.
+- **Task Prioritization:** Categorize tasks by priority (High, Medium, Low).
+- **Persistent Storage:** Tasks are stored using Local Storage.
+- **API Integration:** Fetch and display weather information for tasks related to outdoor activities.
+- **User Authentication:** Simulated login/logout using Redux.
+- **Responsive Design:** Mobile-first approach using CSS Grid and Flexbox.
 
-## How can I edit this code?
+## Technologies Used
+- **Frontend:** React.js, Redux (Thunk/Saga), JavaScript (ES6+)
+- **Styling:** CSS, Bootstrap/Material-UI
+- **Data Storage:** Local Storage
+- **API:** OpenWeather API (or another public API)
+- **Deployment:** Netlify/Vercel/GitHub Pages
 
-There are several ways of editing your application.
+## Installation & Setup
 
-**Use Lovable**
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/react-todo-app.git
+   cd react-todo-app
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4ae8d2f7-208a-4c67-9ab8-3c8544efa4a0) and start prompting.
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Changes made via Lovable will be committed automatically to this repo.
+3. Set up API key (if applicable):
+   - Register for an API key at [OpenWeather](https://openweathermap.org/)
+   - Create a `.env` file in the root directory and add:
+     ```sh
+     REACT_APP_WEATHER_API_KEY=your_api_key_here
+     ```
 
-**Use your preferred IDE**
+4. Run the development server:
+   ```sh
+   npm start
+   ```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+5. Open `http://localhost:3000` in your browser.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## Project Structure
+```
+react-todo-app/
+│-- src/
+│   ├── components/
+│   │   ├── TaskInput.js
+│   │   ├── TaskList.js
+│   ├── redux/
+│   │   ├── store.js
+│   │   ├── tasksSlice.js
+│   ├── pages/
+│   │   ├── Login.js
+│   │   ├── Home.js
+│   ├── App.js
+│   ├── index.js
+│-- public/
+│-- .env
+│-- package.json
+│-- README.md
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
+To deploy the application:
+```sh
+npm run build
+```
+Then deploy the `build/` directory to Netlify, Vercel, or GitHub Pages.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Live Demo
+[Live Project Link](https://your-deployed-link.com)
 
-**Use GitHub Codespaces**
+## Submission
+Submit your project using this form: 
+[Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdrJglll_o2t5snpVTITuAfJwHYKIP6kCQW2RNSe3hzD1PcRg/viewform?usp=dialog)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4ae8d2f7-208a-4c67-9ab8-3c8544efa4a0) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## Contact
+For any questions, email us at **hr.quadbtech@gmail.com** with the subject **React JS Internship**.

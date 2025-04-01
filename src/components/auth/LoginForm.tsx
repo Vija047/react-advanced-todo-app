@@ -123,6 +123,9 @@ const LoginForm: React.FC = () => {
               ) : null}
               Sign in
             </Button>
+            <a href="/signup" className="block text-sm text-center mt-2 text-gray-600 hover:text-gray-800">
+          Dont have an account? Sign up
+          </a>
           </div>
         </form>
       </div>
