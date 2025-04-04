@@ -75,10 +75,3 @@ Then deploy the `build/` directory to Netlify, Vercel, or GitHub Pages.
 
 ## Live Demo
 [Live Project Link](https://your-deployed-link.com)
-
-## Submission
-Submit your project using this form: 
-[Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSdrJglll_o2t5snpVTITuAfJwHYKIP6kCQW2RNSe3hzD1PcRg/viewform?usp=dialog)
-
-## Contact
-For any questions, email us at **hr.quadbtech@gmail.com** with the subject **React JS Internship**.
